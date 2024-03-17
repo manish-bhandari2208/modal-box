@@ -1,0 +1,159 @@
+body{
+    background-image: url(backgroundimg.jpg);
+    color:white;
+
+}
+
+.navbar{
+    background-color:rgb(71,225,12);
+    border-radius: 20px;
+   
+}
+.navbar ul{
+   overflow: auto; 
+}
+.navbar li{
+    font-size: larger;
+    margin: 13px 120px 15px 139px;
+    margin-left:139px;
+    font-weight:bold;
+    color:white;
+    float:left;
+    list-style: none;
+
+}
+
+.navbar a{
+    color:white;
+    
+   
+    padding:3px 3px;
+    text-decoration:none
+}
+
+.logo{
+   
+    margin-left:-20px;
+    height:40px;
+    width:40px;
+   
+}
+
+#prophoto{
+    margin-left: 93px;
+    margin-top: 89px;
+    height: 351px;
+    width: 276px;
+    border-radius: 54px;
+}
+.front{
+    display:flex;
+    flex-direction: row;
+}
+.info{
+    margin-top: 53px;
+    margin-left: 108px;
+    backdrop-filter: blur(20px);
+    height: 424px;
+    width: 823px;
+
+}
+.infoin{
+    margin-top: 99px;
+    margin-left: 57px;
+    color: white;
+    font-size: 40px;
+
+}
+.infoin ul{
+    list-style-type: none;
+}
+.qualification
+{
+    margin-left: 60px;
+}
+.qualification h2{
+    margin-top: 60px;
+    font-size: 57px;
+    margin-left: 60px;
+
+    
+}
+.qualification dl {
+    padding:30px;
+    font-size: 30px;
+    margin-left: 174px;
+}
+
+.qualification dd{
+    padding:20px;
+    font-size:22px;
+    margin-left: 82px;
+    margin-top: 5px;
+}
+
+
+.bg-modal{
+height:100%;
+width: 100%;
+background-color: rgba(0,0,0,0.7);
+position:absolute;
+top:0;
+display:flex;
+justify-content: center;
+align-items: center;
+display: none;
+
+
+
+}
+.button {
+	background-color: blue;
+	border: 2px solid white;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+	display: inline-block;
+	&:hover {
+		background-color: white;
+		color: blue;
+		border: 2px solid blue;
+	}
+}
+
+.modal-content{
+    width:500px;
+    height:300px;
+    background-color: white;
+    border-radius: 10px;
+    text-align:center;
+    padding:20px;
+    
+}
+.bg-logo{
+    height:80px;
+    width:80px;
+
+}
+
+
+input{
+    width:60%;
+    display:block;
+    margin:20px auto
+}
+.close{
+    color:black;
+    float:right;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 10px;
+    transform: rotate(45deg);
+    cursor:pointer;
+}
+p{
+    color:black;
+    font-weight: bolder;
+}
